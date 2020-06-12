@@ -31,7 +31,7 @@ Yesterday(){
     		mkdir -p /home/$USER/.do-list/$month2/
     		touch  /home/$USER/.do-list/$month2/$dateFin
 	fi
-	if [ -f /usr/bin/typoraa ];then
+	if [ -f /usr/bin/typora ];then
 		nohup typora  /home/$USER/.do-list/$month2/$dateFin &>/dev/null &
 		else
 			vim  /home/$USER/.do-list/$month2/$dateFin
@@ -50,7 +50,7 @@ Today(){
     		touch /home/$USER/.do-list/$month2/$dateFin
 	fi
 	
-	if [ -f /usr/bin/typoraa ];then
+	if [ -f /usr/bin/typora ];then
 		nohup typora /home/$USER/.do-list/$month2/$dateFin &>/dev/null &
 		else
 			vim /home/$USER/.do-list/$month2/$dateFin
@@ -69,7 +69,7 @@ Tomorrow(){
     		mkdir -p /home/$USER/.do-list/$month2/
     		touch /home/$USER/.do-list/$month2/$dateFin
 	fi
-	if [ -f /usr/bin/typoraa ];then
+	if [ -f /usr/bin/typora ];then
 		nohup typora /home/$USER/.do-list/$month2/$dateFin &>/dev/null &
 		else
 			vim /home/$USER/.do-list/$month2/$dateFin
@@ -78,7 +78,7 @@ Tomorrow(){
 
 All(){
 	
-	if [ -f /usr/bin/typoraa ];then
+	if [ -f /usr/bin/typora ];then
 		nohup typora /home/$USER/.do-list &>/dev/null &
 		else
 			vim /home/$USER/.do-list
@@ -110,7 +110,7 @@ Test(){
     				mkdir -p /home/$USER/.do-list/$month月/
     				touch /home/$USER/.do-list/$month月/$date.md
 			fi
-			if [ -f /usr/bin/typoraa ];then
+			if [ -f /usr/bin/typora ];then
 				nohup typora /home/$USER/.do-list/$month月/$date.md &>/dev/null &
 				else
 					vim /home/$USER/.do-list/$month月/$date.md
