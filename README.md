@@ -16,7 +16,9 @@
 
 `git clone git@github.com:nj-jay/do-list.git`
 
-chmod a+x do-list
+chmod a+x do-list.sh
+mv do-list.sh do-list
+mv do-list ~/.local/bin
 
 ## Instructions for use
 
