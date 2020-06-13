@@ -13,13 +13,13 @@
 * do-list -h     查看脚本的使用说明
 
 ## How to use
-
-`git clone git@github.com:nj-jay/do-list.git`
+```shell
+git clone git@github.com:nj-jay/do-list.git
 
 chmod a+x do-list.sh
 mv do-list.sh do-list
 mv do-list ~/.local/bin
-
+```
 ## Instructions for use
 
 创建的文件夹在~/.do-list
